@@ -1,0 +1,18 @@
+<templates id="template" xml:space="preserve">
+
+	<t t-extend="PosTicket">
+		<t t-jquery=".receipt-change" t-operation="after">
+			
+			<br />
+			<table class='receipt-total-in-words'>
+				<tr class="pos-center-align">
+					<td class="" colspan="2">
+						<t t-esc="order.get_amount_in_words()"/>
+					</td>
+				</tr>
+			</table>
+
+		</t>
+	</t>
+	
+</templates>
