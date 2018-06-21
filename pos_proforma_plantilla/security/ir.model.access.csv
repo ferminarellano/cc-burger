@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_/odoo/custom/addons/pos_proforma_plantilla_/odoo/custom/addons/pos_proforma_plantilla,/odoo/custom/addons/pos_proforma_plantilla./odoo/custom/addons/pos_proforma_plantilla,model_/odoo/custom/addons/pos_proforma_plantilla_/odoo/custom/addons/pos_proforma_plantilla,,1,0,0,0
