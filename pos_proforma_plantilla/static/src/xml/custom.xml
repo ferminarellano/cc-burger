@@ -32,6 +32,10 @@
 				<div class="receipt-user">
 					Mesero: n/a
 				</div>
+				
+				<div class="receipt-user">
+					Mesa: <t t-esc='receipt.table' />
+				</div>
 								
 				<br />
 				
